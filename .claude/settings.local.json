@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for f:*)",
+      "Bash(do python3:*)",
+      "Bash(echo \"OK: $f\")",
+      "Bash(echo \"FAIL: $f\")",
+      "Bash(done)",
+      "mcp__Google_Colab__open_colab_browser_connection",
+      "mcp__Google_Colab__get_cells",
+      "mcp__Google_Colab__add_text_cell",
+      "mcp__Google_Colab__delete_cell",
+      "mcp__Google_Colab__add_code_cell",
+      "mcp__Google_Colab__run_code_cell",
+      "Bash(cd:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "Google_Colab"
+  ],
+  "disabledMcpjsonServers": [
+    "golem-3dmcp",
+    "Roblox_Studio"
+  ]
+}
