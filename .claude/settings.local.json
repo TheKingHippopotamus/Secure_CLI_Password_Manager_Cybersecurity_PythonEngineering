@@ -15,7 +15,27 @@
       "Bash(cd:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(ssh contabo-nir:*)",
+      "Bash(git reset:*)",
+      "Bash(scp /tmp/mole/mole contabo-nir:/home/nir/mole/mole)",
+      "Bash(gh run:*)",
+      "Bash(git fetch:*)",
+      "Bash(git status:*)",
+      "Bash(ls:*)",
+      "Bash(scp /tmp/mole/mole_current contabo-nir:/home/nir/mole/mole)",
+      "Bash(scp /tmp/mole/disk-alert.sh /tmp/mole/scheduled-health.sh /tmp/mole/daily-summary.sh contabo-nir:/home/nir/security-office/)",
+      "Bash(python3 -c \":*)",
+      "Bash(scp /tmp/mole/mole_v2 contabo-nir:/home/nir/mole/mole)",
+      "Bash(git:*)",
+      "Bash(docker compose logs:*)",
+      "Bash(curl -s https://api.ipify.org)",
+      "Bash(dig +short:*)",
+      "Bash(sudo /usr/libexec/ApplicationFirewall/socketfilterfw --getglobalstate)",
+      "Bash(sudo /usr/libexec/ApplicationFirewall/socketfilterfw --listapps)",
+      "Bash(ipconfig getifaddr:*)",
+      "Bash(curl -sv --connect-timeout 5 http://irondome-playground.duckdns.org)",
+      "Bash(curl -sv --connect-timeout 5 http://84.247.161.169)"
     ]
   },
   "enabledMcpjsonServers": [
